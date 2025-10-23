@@ -423,6 +423,34 @@ ul li {
     color: #fff;
 }
 
+
+.view-btn1 { 
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 45%;
+    font-weight: bold;
+    box-shadow: 1px 1px #e1d2ce;
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-bottom: 60px;
+}
+
+.view-btn1:hover {
+  transform: translateY(-4px);
+}
+
+.view-btn1 a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
 .contact form {
     justify-content: center;
     align-items: center;
@@ -688,6 +716,13 @@ ul li {
         justify-content: center;
         align-items: center;
         padding: 8px;
+    }
+
+    .view-btn1 {
+        font-size: small;
+        justify-content: center;
+        align-items: center;
+        margin-left: 35%;
     }
 
     .projects img {
